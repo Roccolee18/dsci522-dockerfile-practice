@@ -1,0 +1,6 @@
+name: '522-assign2-py-env'
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - conda-lock

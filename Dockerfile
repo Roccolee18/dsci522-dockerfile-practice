@@ -4,4 +4,4 @@ COPY conda-linux-64.lock /tmp/conda-linux-64.lock
 
 RUN conda install -c conda-forge conda-lock -y
 
-RUN conda-lock install -n myenv conda-lock.yml
+RUN conda-lock install -n 522-assign-py-env conda-lock.yml
